@@ -1,0 +1,40 @@
+<!-- Este template corresponde à página que o usuário acessa para
+cadastrar um novo produto ou editar um produto existente -->
+    <h1>Cadastro de Produtos</h1>
+    <form method="POST" enctype="multipart/form-data" action="" class="needs-validation" data-toggle="validator">
+        <div class="form-group">
+            <label for="id">ID:</label>
+            <input type="number" class="form-control" id="id" name="id" value="" required>
+            <div class="invalid-feedback">Campo obrigatório.</div>
+        </div>
+        <div class="form-group">
+            <label for="nome">Nome:</label>
+            <input type="text" class="form-control" id="nome" name="nome" value="" required>
+            <div class="invalid-feedback">Campo obrigatório.</div>
+        </div>
+        <div class="form-group">
+            <label for="raca">Descrição:</label>
+            <input type="text" class="form-control" id="descricao" name="descricao" value="" required>
+            <div class="invalid-feedback">Campo obrigatório.</div>
+        </div>
+        <div class="form-group">
+            <label for="casa">Preço:</label>
+            <input type="text" class="form-control" id="preco" name="preco" value="" required>
+            <div class="invalid-feedback">Campo obrigatório.</div>
+        </div>
+        <div class="form-group">
+            <label for="imagem">Imagem:</label>
+            <input type="text" class="form-control" id="imagem" name="imagem" value="">
+            <img src="" style="max-width: 200px; max-height: 200px;">
+        </div>
+        
+      
+        <input type="submit" class="btn btn-primary" name="salvar" value="salvar">
+        <a href="#" class="btn btn-secondary">Cancelar</a>
+    
+        <input type="submit" class="btn btn-danger" name="excluir" value="excluir">
+      
+
+       
+
+    </form>
