@@ -1,4 +1,4 @@
-#PROJETO CRUD COM DICIONÁRIOS E FLASK
+# PROJETO CRUD COM DICIONÁRIOS E FLASK
 Este projeto foi feito para uma aula específica da **Escola Koru** e só faz sentido quando apresentado neste contexto.
 
 O objetivo geral do projeto é demonstrar aos alunos como podem utilizar o flask para realizar operações de CRUD utilizando templates, com base em um repositório simulado.
